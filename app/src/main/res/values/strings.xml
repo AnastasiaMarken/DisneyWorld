@@ -1,0 +1,61 @@
+<resources>
+	<string name="hello">Disney World</string>
+	<string name="app_name">Disney World</string>
+
+	<string name="btn_login_1">LOG IN</string>
+	<string name="TV_1">Disney World!</string>
+
+	<string name="UN">User Name:</string>
+	<string name="Pass">Password:</string>
+	<string name="RPass">Remember Password</string>
+
+	<string name="MENU">MENU</string>
+	<string-array name="menu">
+		<item>About Disney</item>
+		<item>Type a message</item>
+		<item>Cartoon list</item>
+		<item>Related Disney Sites</item>
+	</string-array>
+	<string name="sub_menu">menu</string>
+
+	<string name="RB_1">Hello!</string>
+	<string name="RB_2">Do you want to watch a cartoon?</string>
+	<string name="RB_3">Have a nice day)</string>
+	<string name="btn5_1">Show Toast</string>
+	<string name="btn5_2">Clear TextEdit</string>
+	<string name="EditTextHint">Please, write something</string>
+
+	<string name="Label_7">Label</string>
+
+	<string name="Label_7_2">URL:</string>
+	<string name="btn7_1">Ok</string>
+	<string name="btn7_2">Cancel</string>
+	<string-array name="strings">
+		<item>Frozen</item>
+		<item>Frozen 2</item>
+		<item>Moana</item>
+		<item>Big Hero 6</item>
+		<item>Tangled</item>
+		<item>The Princess and the Frog</item>
+		<item>Bolt</item>
+		<item>Brother Bear</item>
+		<item>Atlantis: The Lost Empire</item>
+		<item>Mary Poppins</item>
+		<item>Mary Poppins Returns</item>
+		<item>Mulan</item>
+		<item>Aladdin</item>
+		<item>The Little Mermaid</item>
+		<item>Mul#f3ac76an 2020</item>
+		<item>Maleficent</item>
+		<item>The Nutcracker and the Four Realms</item>
+		<item>Coco</item>
+	</string-array>
+
+	<string name="mission"> The mission of The Walt Disney Company is to entertain, inform and inspire people around the globe through the power of unparalleled storytelling, reflecting the iconic brands, creative minds and innovative technologies that make ours the world’s premier entertainment company.</string>
+	<string name="LEADERSHIP">Disney’s leadership team oversees the world’s premier entertainment company, home of the most respected and beloved brands around the globe.</string>
+	<string name="BUSINESSES">The Walt Disney Company, together with its subsidiaries and affiliates, is a leading diversified international family entertainment and media enterprise with the following business segments: Media Networks; Parks, Experiences and Products; Studio Entertainment; and Direct-to-Consumer and International.</string>
+	<string name="Media">Media Networks is the primary unit of The Walt Disney Company that contains the company’s vast array of television networks, cable channels, associated production and distribution companies, and owned and operated television stations across two divisions – Walt Disney Television and ESPN.</string>
+	<string name="Parks">Disney Parks, Experiences and Products is the global hub that brings Disney’s stories, characters, and franchises to life through theme parks and resorts, cruise and vacation experiences, and consumer products—everything from toys to apparel, and books to video games.</string>
+	<string name="Studio">For over 90 years, The Walt Disney Studios has been the foundation on which The Walt Disney Company was built. Today, the Studio brings quality movies, music and stage plays to consumers throughout the world.</string>
+	<string name="history">From humble beginnings as a cartoon studio in the 1920s to its preeminent name in the entertainment industry today, Disney proudly continues its legacy of creating world-class stories and experiences for every member of the family.</string>
+</resources>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity3">
+
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="411dp"
+		android:layout_height="150dp"
+		android:layout_gravity="center"
+		android:src="@drawable/string"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/lblComments"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_gravity="center|center_horizontal"
+		android:fontFamily="sans-serif-light"
+		android:text="About The Walt Disney Company"
+		android:textSize="24sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+	<ScrollView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/lblComments">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+				<ImageView
+					android:id="@+id/imageView3"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:srcCompat="@drawable/logo_top" />
+
+				<TextView
+					android:id="@+id/textView10"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:fontFamily="sans-serif-light"
+					android:text="@string/mission"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+				<TextView
+					android:id="@+id/textView9"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:fontFamily="sans-serif-light"
+					android:text="OUR MISSION"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+				<ImageView
+					android:id="@+id/imageView4"
+					android:layout_width="394dp"
+					android:layout_height="257dp"
+					android:layout_marginTop="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView10"
+					app:srcCompat="@drawable/logo_2" />
+
+				<TextView
+					android:id="@+id/textView11"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:fontFamily="sans-serif-light"
+					android:text="LEADERSHIP"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+				<TextView
+					android:id="@+id/textView12"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/LEADERSHIP"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView11"
+					android:fontFamily="sans-serif-light"/>
+
+				<ImageView
+					android:id="@+id/imageView5"
+					android:layout_width="0dp"
+					android:layout_height="200dp"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginEnd="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView12"
+					app:srcCompat="@drawable/logo_3" />
+
+				<TextView
+					android:id="@+id/textView13"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="OUR BUSINESSES"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView5"
+					android:fontFamily="sans-serif-light"/>
+
+				<TextView
+					android:id="@+id/textView14"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/BUSINESSES"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView13"
+					android:fontFamily="sans-serif-light"/>
+
+				<ImageView
+					android:id="@+id/imageView6"
+					android:layout_width="0dp"
+					android:layout_height="218dp"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginEnd="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView14"
+					app:srcCompat="@drawable/logo_4" />
+
+				<TextView
+					android:id="@+id/textView15"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="MEDIA NETWORKS"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView6"
+					android:fontFamily="sans-serif-light"/>
+
+				<TextView
+					android:id="@+id/textView16"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/Media"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView15"
+					android:fontFamily="sans-serif-light"/>
+
+				<ImageView
+					android:id="@+id/imageView8"
+					android:layout_width="0dp"
+					android:layout_height="277dp"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginEnd="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView16"
+					app:srcCompat="@drawable/logo_5" />
+
+				<TextView
+					android:id="@+id/textView17"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="Disney Parks, Experiences and Products"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView8"
+					android:fontFamily="sans-serif-light"/>
+
+				<TextView
+					android:id="@+id/textView18"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/Parks"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView17"
+					android:fontFamily="sans-serif-light"/>
+
+				<ImageView
+					android:id="@+id/imageView10"
+					android:layout_width="0dp"
+					android:layout_height="286dp"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginEnd="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView18"
+					app:srcCompat="@drawable/logo_6" />
+
+				<TextView
+					android:id="@+id/textView19"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="Studio Entertainment"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView10"
+					android:fontFamily="sans-serif-light"/>
+
+				<TextView
+					android:id="@+id/textView20"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/Studio"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView19"
+					android:fontFamily="sans-serif-light"/>
+
+				<ImageView
+					android:id="@+id/imageView11"
+					android:layout_width="0dp"
+					android:layout_height="295dp"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="20dp"
+					android:layout_marginEnd="20dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView20"
+					app:srcCompat="@drawable/logo_7" />
+
+				<TextView
+					android:id="@+id/textView21"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:text="HISTORY OF DISNEY"
+					android:textSize="18sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/imageView11"
+					android:fontFamily="sans-serif-light"/>
+
+				<TextView
+					android:id="@+id/textView22"
+					android:layout_width="0dp"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="10dp"
+					android:layout_marginEnd="20dp"
+					android:text="@string/history"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/textView21"
+					android:fontFamily="sans-serif-light"/>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

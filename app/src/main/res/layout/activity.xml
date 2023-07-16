@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F5F5F5"
+	tools:context=".MainActivity2">
+
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="wrap_content"
+		android:layout_height="150dp"
+		android:layout_gravity="center"
+		android:src="@drawable/string"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="0dp"
+		android:layout_marginTop="150dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TableRow>
+
+			<TextView
+				android:id="@+id/textView"
+				android:layout_width="wrap_content"
+				android:layout_gravity="left|center_vertical"
+				android:fontFamily="sans-serif-light"
+				android:text="@string/UN"
+				android:textSize="16sp" />
+
+			<EditText
+				android:id="@+id/txtUserName"
+				android:layout_width="200px"
+				android:fontFamily="sans-serif-light"
+				android:gravity="right|center_vertical" />
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_gravity="left|center_vertical"
+				android:fontFamily="sans-serif-light"
+				android:text="@string/Pass"
+				android:textSize="16sp" />
+
+			<EditText
+				android:id="@+id/txtPassword"
+				android:layout_width="200px"
+				android:layout_height="wrap_content"
+				android:fontFamily="sans-serif-light"
+				android:gravity="right|center_vertical"
+				android:password="true" />
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+				android:id="@+id/textView3"
+				android:fontFamily="sans-serif-light" />
+
+			<CheckBox
+				android:id="@+id/txtRemember"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:fontFamily="sans-serif-light"
+				android:text="@string/RPass"
+				android:textSize="16sp" />
+
+		</TableRow>
+
+		<TableRow
+			android:layout_width="120dp"
+			android:layout_height="match_parent"
+			android:gravity="center">
+
+			<Button
+				android:id="@+id/btn_log"
+				android:layout_width="130dp"
+				android:backgroundTint="#B4D3FF"
+				android:fontFamily="sans-serif-light"
+				android:gravity="center_horizontal|center_vertical"
+				android:text="@string/btn_login_1" />
+
+		</TableRow>
+	</TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
